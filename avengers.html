@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Avengers</title>
+</head>
+<body>
+<div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </div>
+
+    <marquee behavior="scroll" direction="left">Welcome to The Avengers movie review page!</marquee>
+
+    <img src="images co/The Avengers.jpg" alt="The Avengers">
+
+    <div class="content">
+        <h1>The Avengers</h1>
+        <p>The Avengers is a superhero film released in 2012, directed by Joss Whedon.
+             The film features a team of superheroes from the Marvel Comics universe, including Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye.</p>
+        <p>The story follows the formation of the Avengers as they come together to stop the villain Loki from invading Earth.</p>
+        <p>The Avengers received critical acclaim for its ensemble cast, action sequences, and humor, becoming a major box office success.</p>
+        <p>The film's success led to the creation of the Marvel Cinematic Universe, with several sequels and spin-offs featuring the Avengers characters.</p>
+    </div>
+
+    <form id="add-review-form">
+        <br><label for="review-rating">Review Rating (1-5):</label><input type="number" id="review-rating" name="review-rating" min="1" max="5" required></br>
+        <textarea id="review" name="review" rows="4" cols="50" placeholder="Write your review here..."></textarea><br>
+        <button class="cta-button" type="button" onclick="submitReview()">Submit</button>
+    </form>
+</body>
+</html>

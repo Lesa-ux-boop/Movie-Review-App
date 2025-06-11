@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-Man</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </div>
+    
+    <marquee behavior="scroll" direction="left">Welcome to the Spider-Man movie review page!</marquee>
+
+    <img src="images co/Amazing Spider Man.jpg" alt="Spider-Man">
+
+    <div class="content">
+        <h1>Spider-Man</h1>
+        <p>Spider-Man is a fictional superhero created by writer Stan Lee and writer-artist Steve Ditko.
+             He first appeared in Amazing Fantasy #15 (August 1962).</p>
+        <p>Spider-Man has been adapted into various media, including animated series, live-action films, and video games.</p>
+        <p>Some popular Spider-Man films include Sam Raimi's Spider-Man trilogy, The Amazing Spider-Man series, and the recent Spider-Man: Homecoming and Spider-Man: Into the Spider-Verse.</p>
+        <p>Spider-Man has also appeared in various animated series, including the 1994 Spider-Man: The Animated Series and the more recent Spider-Man: Into the Spider-Verse.</p>
+    </div>
+
+    <form id="add-review-form">
+        <br><label for="review-rating">Review Rating (1-5):</label><input type="number" id="review-rating" name="review-rating" min="1" max="5" required></br>
+        <textarea id="review" name="review" rows="4" cols="50" placeholder="Write your review here..."></textarea><br>
+        <button class="cta-button" type="button" onclick="submitReview()">Submit</button>
+    </form>
+</body>
+</html>

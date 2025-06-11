@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Incredibles</title>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </div>
+
+    <marquee behavior="scroll" direction="left">Welcome to The Incredibles movie review page!</marquee>
+
+    <img src="images co/The Incredibles.jpg" alt="The Incredibles">
+
+    <div class="content">
+        <h1>The Incredibles</h1>
+        <p>The Incredibles is an animated superhero film produced by Pixar Animation Studios and released by Walt Disney Pictures in 2004.
+             The film follows the Parr family, a family of superheroes forced to live undercover after their powers are outlawed.</p>
+        <p>When a new villain emerges, Mr. Incredible and his family must come out of hiding to save the day.</p>
+        <p>The Incredibles received critical acclaim for its animation, storytelling, and themes of family and identity.</p>
+        <p>The film won two Academy Awards and has become a beloved classic for audiences of all ages.</p>
+    </div>
+
+    <form id="add-review-form">
+        <br><label for="review-rating">Review Rating (1-5):</label><input type="number" id="review-rating" name="review-rating" min="1" max="5" required></br>
+        <textarea id="review" name="review" rows="4" cols="50" placeholder="Write your review here..."></textarea><br>
+        <button class="cta-button" type="button" onclick="submitReview()">Submit</button>
+    </form>
+</body>
+</html>
